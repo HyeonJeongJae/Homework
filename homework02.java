@@ -250,8 +250,6 @@ package week02;
 // }
 
 
-import org.w3c.dom.ls.LSOutput;
-
 //        5. DIP - 의존관께 역전 원칙
 //                구체적인 것이 추상화된 것에 의존해야 한다. 자주 변경되는 구체 클래스에 의존하지마라.
 //
