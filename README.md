@@ -1,1 +1,1 @@
-JAVA 기본 5대 원칙 SOLID
+JAVA 기초 공부
