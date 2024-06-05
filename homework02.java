@@ -295,7 +295,7 @@ package week02;
 // }
 
 
-public class homework02{
+public class SOLID{
     public static void main(String[] args) {
 
     }
