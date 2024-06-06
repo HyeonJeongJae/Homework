@@ -21,12 +21,18 @@ package Ex;
 
 
 public class Static {
+    // 인스턴스 변수
+    int time = 1842;
     // static 변수
     static int age = 33;
 
     // static 메서드
     public static void study() {
         System.out.println("static 공부");
+//        System.out.println(time);  static 메서드에서 인스턴스 변수 접근 불가.
+//                                          접근하려면 객체 생성후 접근해야함
+//        Static access = new Static();
+//        System.out.println(access.time + "객체 생성후 접근 가능함");
         }
 
     // static 블록 (클래스 로더에 의해 클래스가 처음 로드될 때 실행)
@@ -44,5 +50,4 @@ public class Static {
 
     }
 }
-
 
